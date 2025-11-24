@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
--   Docker V2
+-   Docker with Docker Compose V2
 -   VS Code with the python extensions
 
 ## Steps
