@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "docker compose up -d && sleep 2",
             "windows": {
-                "command": "docker-compose up -d && timeout /t 2 > nul"
+                "command": "docker compose up -d && timeout /t 2 > nul"
             }
         },
         {
