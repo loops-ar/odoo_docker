@@ -1,18 +1,18 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "init docker",
-            "type": "shell",
-            "command": "docker compose up -d && sleep 2",
-            "windows": {
-                "command": "docker compose up -d && timeout /t 2 > nul"
-            }
-        },
-        {
-            "label": "stop docker",
-            "type": "shell",
-            "command": "docker compose down"
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "init docker",
+      "type": "shell",
+      "command": "docker compose up -d && sleep 2",
+      "windows": {
+        "command": "docker compose up -d && timeout /t 2 > nul"
+      }
+    },
+    {
+      "label": "stop docker",
+      "type": "shell",
+      "command": "docker compose down"
+    }
+  ]
 }
