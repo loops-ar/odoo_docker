@@ -15,7 +15,6 @@
           "remoteRoot": "/mnt/extra-addons"
         }
       ],
-      "logToFile": true,
       "preLaunchTask": "init docker",
       "postDebugTask": "stop docker"
     }
