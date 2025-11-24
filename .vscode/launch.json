@@ -3,18 +3,18 @@
   "configurations": [
     {
       "name": "Odoo: Attach",
-      "type": "python",
+      "type": "debugpy",
       "request": "attach",
-      "port": 8069,
-      "debugServer": 8888,
-      "host": "localhost",
+      "connect": {
+        "host": "localhost",
+        "port": 8888
+      },
       "pathMappings": [
         {
           "localRoot": "${workspaceFolder}/addons",
           "remoteRoot": "/mnt/extra-addons"
         }
       ],
-      "logToFile": true,
       "preLaunchTask": "init docker",
       "postDebugTask": "stop docker"
     }

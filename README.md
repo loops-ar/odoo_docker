@@ -1,8 +1,8 @@
-# Run odoo with docker-compose (debug on vs code)
+# Run odoo with docker compose (debug on vs code)
 
 ## Pre-requisites
 
--   Docker
+-   Docker with Docker Compose V2
 -   VS Code with the python extensions
 
 ## Steps
